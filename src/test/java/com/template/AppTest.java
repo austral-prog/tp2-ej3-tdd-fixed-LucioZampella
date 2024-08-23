@@ -56,7 +56,7 @@ class AppTest {
         assertEquals(11, accounts.get("Juan"));
     }
     @Test
-    void retireEquals0() {
+    void retireEqualsZero() {
         App app = new App();
         Map<String, Integer> accounts = new HashMap<>();
         create(accounts, "Juan", 5);
@@ -125,7 +125,7 @@ class AppTest {
         assertEquals(5, accounts.get("Juan"));
     }
    @Test
-   void transferEquals0() {
+   void transferEqualsZero() {
         App app = new App();
         Map<String, Integer> accounts = new HashMap<>();
         create(accounts, "Juan", 5);
